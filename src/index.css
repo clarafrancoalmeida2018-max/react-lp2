@@ -1,8 +1,8 @@
 :root {
     --text: #ffffff;
-    --bg: #051723;
-    --lpurple: #611e91;
-    --dpurple: #27043f;
+    --bg: #C02F74;
+    --lpurple: #ff70c8;
+    --dpurple: #f0c7d0;
     --lorange: #DDA15E;
     --dorange: #BC6C25;
     --font: "Roboto", sans-serif;
@@ -25,7 +25,7 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #0000009c;
+    background-color: #995d899c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,8 +135,13 @@ footer a img {
 
 footer a img:hover {
     opacity: 1;
-    box-shadow: 0px 3px 10px #09090909;
+    box-shadow: 0px 3px 10px #dacece;
     transform: translateY(-5px) scale(1.1) rotate(360deg);
+}
+
+placeholder {
+    color: #ffffff;
+    opacity: 0.7;
 }
 
 

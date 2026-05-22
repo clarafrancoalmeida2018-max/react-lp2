@@ -21,11 +21,11 @@ const navTo = (id) => {
       <nav>
       <span className={s.navItems} onClick={() => navTo("s1")}>
         <i class="fa-solid fa-house"></i>
-        <a href='#s1' className={s.navWords}>Jogo</a>
+        <a href='#s1' className={s.navWords}>inicio</a>
       </span>
       <span className={s.navItems} onClick={() => navTo("s2")}>
-        <i class="fa-solid fa-car-side"></i>
-        <a href='#s2' className={s.navWords}>Carros</a>
+        <i class="fa-solid fa-circle-user"></i>
+        <a href='#s2' className={s.navWords}>personagens</a>
       </span>
       <span className={s.navItems} onClick={() => navTo("s3")}>
         <i class="fa-brands fa-square-youtube"></i>
@@ -38,38 +38,39 @@ const navTo = (id) => {
     </nav>
     <main>
       <section className={s.s1} id="s1">
-        <h1>Need for Speed</h1>
-        <h2>Best racing game of all times.</h2>
+        <h1>barbie</h1>
+        <h2>Dreamhouse</h2>
+        
       </section>
       <section className={s.s2}  id="s2">
         <div className={s.card}>
           <img width="300px" height="auto" src={img1} alt="nfs1" />
           <div>
-            <h4>Need for Speed: Underground 2</h4>
-            <p>Traz uma cidade vibrante onde o jogador alterna entre corridas legais durante o dia e disputas ilegais à noite. O sistema de risco e reputação adiciona tensão extra, especialmente quando a polícia entra em cena.</p>
+            <h4>Skipper</h4>
+            <p>a segunda irmã mais velha da barbie, costuma ser pouco sarcástica, idependente e prefere ficar no celular ou ouvindo musica.</p>
           </div>
         </div>
         <div className={s.card}>
           <img width="300px" height="auto" src={img2} alt="nfs2" />
           <div>
-            <h4>Need for Speed: Most Wanted</h4>
-            <p>Um dos jogos mais marcantes da franquia, trazendo corridas de rua, tuning extremo e uma atmosfera urbana cheia de neon. Seu mundo aberto e a liberdade de customização fizeram dele um clássico entre fãs de velocidade</p>
+          <h4>Stacie</h4>
+          <p>é a esportiva da familia Roberts. Supercomunicativa, energetica , prática e adora desafios, esportes radicais e jogos em grupo</p>
           </div>
         </div>
         <div className={s.card}>
           <img width="300px" height="auto" src={img3} alt="nfs3" />
           <div>
-            <h4>Need for Speed Heat</h4>
-            <p>Conhecido pelas perseguições policiais intensas e pela icônica lista Blacklist, ele mistura adrenalina e estratégia em cada corrida. A combinação de carros exóticos, narrativa envolvente e ação constante tornou esse título um dos mais lembrados da série.</p>
+            <h4>Chelsea</h4>
+            <p>é muito fofa,esperta e adora sua doçura estrategicamente para conseguir o que das irmãs mais velhas.</p>
           </div>
         </div>
       </section>
       <section className={s.s3} id="s3">
-        <iframe
+       <iframe
           className={s.vid}
-          src="https://www.youtube.com/embed/9ewiJJe_nYI?si=QBAFa5Ym9jjekUK2&autoplay=0"
+          src="https://www.youtube.com/embed/p3foJ-Wu6lM"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="
             accelerometer;
             autoplay;
@@ -79,8 +80,8 @@ const navTo = (id) => {
             picture-in-picture;
             web-share;
           "
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
       </section>
       <section className={s.s4} id="s4">

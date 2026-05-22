@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: #ffffff56;
+    background-color: #eb09a756;
     padding: 10px;
     border-radius: 999px;
 }
@@ -18,7 +18,7 @@
 
 
 .s1 {
-    background-image: url('/bgnew.png');
+    background-image: url('/bgmobile.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 
@@ -48,6 +49,8 @@
     flex-wrap: wrap;
     gap: 50px;
     min-height: 70vh;
+    padding : 100px;
+
 }
 
 .card {
@@ -76,6 +79,11 @@
     gap: 20px;
     padding-top: -8vh;
     padding: 100px;
+}
+
+.s4 placeholder {
+    color: #ffffff;
+    opacity: 0.7;
 }
 
 .formulario {
